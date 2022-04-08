@@ -1,3 +1,7 @@
+*body {
+    width: 34rem;
+}
+
 #topbar img,
 a,
 #logo img {
@@ -12,8 +16,27 @@ a,
 
 a {
     text-align: center;
+    font-size: 13px;
 }
 
 #logo img {
     margin-top: 5rem;
+}
+
+#sbox #searchb {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    width: 34rem;
+    height: 2rem;
+    border-radius: 3rem;
+    border-width: 0.1mm;
+    border-color: slategray;
+    background: url(./img/voicelogo.png) no-repeat;
+    background-position: 32rem;
+    background-size: 2.5rem;
+}
+
+#btn {
+    padding-left: 3rem;
 }
