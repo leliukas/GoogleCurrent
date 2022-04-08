@@ -1,0 +1,19 @@
+#topbar img,
+a,
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#appbtn {
+    margin: 4px;
+}
+
+a {
+    text-align: center;
+}
+
+#logo img {
+    margin-top: 5rem;
+}
