@@ -58,7 +58,7 @@ a {
 
 #sbox #searchb {
     display: block;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 0.5rem 2.5rem;
     width: 527px;
     height: 2rem;
@@ -87,12 +87,12 @@ a {
 }
 
 #sbox .btn {
-    padding: 0.3rem;
+    padding: 0.5rem;
     background: #F8F9FA;
     border: 1px solid transparent;
     height: 2rem;
     border-radius: 0.3rem;
-    margin: 0 0.2rem;
+    margin: 0 0.3rem;
     font-size: 14px;
     color: darkslategray;
 }
