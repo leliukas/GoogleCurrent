@@ -1,5 +1,5 @@
-*body {
-    width: 34rem;
+* {
+    color: darkslategray;
 }
 
 #topbar img,
@@ -37,6 +37,30 @@ a {
     background-size: 2.5rem;
 }
 
-#btn {
-    padding-left: 3rem;
+#sbox {
+    text-align: center;
+}
+
+#searchb {
+    font-size: 16px;
+    padding: 2rem;
+}
+
+#sbox .btn {
+    padding: 0.3rem;
+    background: #F8F9FA;
+    border: 0;
+    height: 2rem;
+    border-radius: 0.3rem;
+    margin: 0 0.2rem;
+    font-size: 14px;
+    color: darkslategray;
+}
+
+#sbox .btn:hover {
+    border: 1px solid slategray;
+}
+
+#sbox .btn:active {
+    border: 1px solid blue;
 }
