@@ -72,6 +72,13 @@ a {
     border: 1px solid #dfe1e5;
 }
 
+#sbox img {
+    position: relative;
+    top: -4.4rem;
+    left: -9.4rem;
+
+}
+
 #sbox #searchb:focus {
     outline: none !important;
     border: 1px solid lightslategray;
