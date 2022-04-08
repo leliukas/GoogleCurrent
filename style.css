@@ -1,13 +1,46 @@
 * {
     color: darkslategray;
+    font-family: Arial;
 }
 
-#topbar img,
-a,
+#topbar {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#topbar a {
+    text-decoration: none;
+    padding: 0 0.6rem;
+    cursor: pointer;
+}
+
+#topbar a:hover {
+    text-decoration: underline;
+}
+
+#topbar a #pp:hover {
+    outline: none !important;
+    border: none solid transparent;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#topbar a #appbtn:hover {
+    outline: none !important;
+    border: none solid transparent;
+    box-shadow: 0 0 10px #719ECE;
+}
+
 #logo img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+#topbar #pp {
+    border-radius: 50%;
 }
 
 #appbtn {
@@ -20,21 +53,28 @@ a {
 }
 
 #logo img {
-    margin-top: 5rem;
+    margin-top: 0.8rem;
 }
 
 #sbox #searchb {
     display: block;
-    margin: 1rem auto;
-    padding: 0.5rem;
-    width: 34rem;
+    margin: 3rem auto;
+    padding: 0.5rem 2.5rem;
+    width: 527px;
     height: 2rem;
+    border: none;
     border-radius: 3rem;
-    border-width: 0.1mm;
+    border-width: thin;
     border-color: slategray;
     background: url(./img/voicelogo.png) no-repeat;
-    background-position: 32rem;
-    background-size: 2.5rem;
+    background-position: 560px;
+    background-size: 1.8rem;
+}
+
+#sbox #searchb:focus {
+    outline: none !important;
+    border: 1px solid lightslategray;
+    box-shadow: 0 0 10px #719ECE;
 }
 
 #sbox {
@@ -49,7 +89,7 @@ a {
 #sbox .btn {
     padding: 0.3rem;
     background: #F8F9FA;
-    border: 0;
+    border: 1px solid transparent;
     height: 2rem;
     border-radius: 0.3rem;
     margin: 0 0.2rem;
