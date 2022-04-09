@@ -67,15 +67,15 @@ a {
     border-width: thin;
     border-color: slategray;
     background: url(./img/voicelogo.png) no-repeat;
-    background-position: 560px;
-    background-size: 1.8rem;
+    background-position: 565px;
+    background-size: 1.6rem;
     border: 1px solid #dfe1e5;
 }
 
 #sbox img {
     position: relative;
-    top: -4.4rem;
-    left: -9.4rem;
+    top: -4.3rem;
+    left: -9.8rem;
 
 }
 
